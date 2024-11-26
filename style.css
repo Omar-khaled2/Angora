@@ -1,0 +1,229 @@
+.nav-item:hover{
+    color: red;
+}
+.nav-item a:hover{
+    color: red;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.carousel-caption {
+    
+    animation: slide 1.5s ease-in-out;
+}
+.bg{
+    background-image: url(./images/mission.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.card {
+  overflow: hidden; 
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease; 
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1); 
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+}
+
+.card:hover .overlay {
+  opacity: 1; 
+}
+
+.card:hover .card-title {
+    color: red; 
+    transition: color 0.3s ease;
+  }
+  
+.overlay ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay ul li {
+  color: rgb(255, 255, 255);
+}
+
+.overlay {
+  background-color: rgba(254, 70, 70, 0.6); 
+}
+
+
+.only {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
+  
+  
+  .col:hover .only {
+    visibility: visible;
+    opacity: 0.7;
+   
+  }
+ .feature-item h5:hover {
+  color: red;
+
+ }
+
+ .c::before {
+  content: "C";
+  position: absolute;
+  font-size: 4rem;
+  color: lightgray; 
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.c h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:rgb(0, 0, 0);
+  margin: 10px auto 0;
+}
+
+.s::before {
+  content: "S";
+  position: absolute;
+  font-size: 4rem;
+  color: lightgray; 
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+.s h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:rgb(0, 0, 0);
+  margin: 10px auto 0;
+}
+
+.r::before {
+  content: "R";
+  position: absolute;
+  font-size: 4rem;
+  color: rgb(255, 0, 0); 
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+.r h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:rgb(0, 0, 0);
+  margin: 10px auto 0;
+}
+
+.a::before {
+  content: "A";
+  position: absolute;
+  font-size: 4rem;
+  color: lightgray; 
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+}
+
+.a h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:rgb(0, 0, 0);
+  margin: 10px auto 0;
+}
+.bc{
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+  .b::before {
+    content: "B";
+    position: absolute;
+    font-size: 4rem;
+    color: lightgray; 
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  
+  .b h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color:rgb(0, 0, 0);
+    margin: 10px auto 0;
+  }
+.sora{
+  background-image: url(./images/pricing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+.G::before {
+  content: "G";
+  position: absolute;
+  font-size: 4rem;
+  color: lightgray; 
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.G h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:rgba(0, 0, 0, 0.679);
+  margin: 10px auto 0;
+}
+.black{
+  background-color: rgba(0, 0, 0, 0.822);
+}
+.end{
+  background-color: black;
+}
